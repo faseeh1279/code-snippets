@@ -51,16 +51,20 @@ ionic build
 ```bash 
 npx cap sync 
 ```
+#### 3. Downlaod the `Android` Capacitor Credentials. 
+```bash
+npm install @capacitor/android
+```
 
-#### 3. Add the `Android` Folder
+#### 4. Add the `Android` Folder
 ```bash 
 npx cap add android
 ```
 
-#### 4. Open the `Android` folder in `Android Studio`
+#### 5. Open the `Android` folder in `Android Studio`
 ```bash 
 npx cap open android
 ```
 
-#### 5. Run the Project in Android Studio.
+#### 6. Run the Project in Android Studio.
 
