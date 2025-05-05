@@ -68,3 +68,8 @@ npx cap open android
 
 #### 6. Run the Project in Android Studio.
 
+
+## SHA - KEY Generation Command 
+```bash
+./gradlew signingReport
+```
