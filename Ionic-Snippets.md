@@ -51,16 +51,32 @@ ionic build
 ```bash 
 npx cap sync 
 ```
+#### 3. Downlaod the `Android` Capacitor Credentials. 
+```bash
+npm install @capacitor/android
+```
 
-#### 3. Add the `Android` Folder
+#### 4. Add the `Android` Folder
 ```bash 
 npx cap add android
 ```
 
-#### 4. Open the `Android` folder in `Android Studio`
+#### 5. Open the `Android` folder in `Android Studio`
 ```bash 
 npx cap open android
 ```
 
-#### 5. Run the Project in Android Studio.
+#### 6. Run the Project in Android Studio.
 
+
+## SHA - KEY Generation Command 
+```bash
+./gradlew signingReport
+```
+
+
+## How to Add Icon in Ionic Angular 
+> **ℹ️ Note:** This is an informational note.
+#### 1.  Open `Android Studio` and right click on the `res` folder under the `app` directory. 
+#### 2. Then choose `new -> ImageAsset`. 
+#### 3. Then choose `Image` you want to upload.
