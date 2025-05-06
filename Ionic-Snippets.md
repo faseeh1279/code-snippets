@@ -77,6 +77,6 @@ npx cap open android
 
 ## How to Add Icon in Ionic Angular 
 > **ℹ️ Note:** This is an informational note.
-### Open `Android Studio` and right click on the `res` folder under the `app` directory. 
-### Then choose `new -> ImageAsset`. 
-### Then choose `Image` you want to upload.
+#### 1.  Open `Android Studio` and right click on the `res` folder under the `app` directory. 
+#### 2. Then choose `new -> ImageAsset`. 
+#### 3. Then choose `Image` you want to upload.
