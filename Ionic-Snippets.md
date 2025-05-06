@@ -73,3 +73,10 @@ npx cap open android
 ```bash
 ./gradlew signingReport
 ```
+
+
+## How to Add Icon in Ionic Angular 
+> **ℹ️ Note:** This is an informational note.
+### Open `Android Studio` and right click on the `res` folder under the `app` directory. 
+### Then choose `new -> ImageAsset`. 
+### Then choose `Image` you want to upload.
