@@ -23,6 +23,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashActivity">
+
   <!-- Lottie Animation View -->
   <com.airbnb.lottie.LottieAnimationView
     android:id="@+id/lottie_animation_view"
@@ -69,7 +70,7 @@ class SplashActivity : AppCompatActivity() {
     lottieAnimationView = findViewById(R.id.lottie_animation_view)
 
     // Set the animation
-    lottieAnimationView.setAnimation(R.raw.blooddonationsplashscreen)
+    lottieAnimationView.setAnimation(R.raw.your_animation_name)
 
     // Play the animation
     lottieAnimationView.playAnimation()
