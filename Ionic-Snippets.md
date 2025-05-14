@@ -65,6 +65,12 @@ npx cap add android
 ```bash 
 npx cap open android
 ```
+#### 7. All in One line Code Build, Sync, Open Android
+```bash
+ionic build
+npx cap sync
+npx cap open android
+```
 
 #### 6. Run the Project in Android Studio.
 
