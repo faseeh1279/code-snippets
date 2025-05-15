@@ -86,3 +86,10 @@ npx cap open android
 #### 1.  Open `Android Studio` and right click on the `res` folder under the `app` directory. 
 #### 2. Then choose `new -> ImageAsset`. 
 #### 3. Then choose `Image` you want to upload.
+
+
+## Free Ionic Icons 
+#### Go to the website 
+```bash 
+ionic.io/ionicons
+```
