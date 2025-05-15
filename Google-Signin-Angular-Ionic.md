@@ -88,3 +88,7 @@ export default config;
 
 #### You would have to use both the `AndroidClientID` as well as the `WebClientID` in order to make that to work. 
 #### In most cases the ID used is the `WebClientID`
+
+
+> [!NOTE]  
+> While using `Google Signin` on `Android Project` use the `SHA1-Fingerprint` of the google publish while testing. 
