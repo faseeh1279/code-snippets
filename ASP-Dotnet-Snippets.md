@@ -12,12 +12,10 @@ dotnet new webapi -n MyApiProject
 dotnet run 
 ```
 
-#### 3. Create & Add Migrations 
+#### 3. Create & Add Migrations &  Apply the Migrations 
 ```bash
 dotnet ef migrations add "Initial Create"
-```
-
-#### 4. Apply the Migrations 
-```bash
 dotnet ef database update
 ```
+
+
