@@ -19,3 +19,13 @@ dotnet ef database update
 ```
 
 
+
+#### 4. Necessary Packages for Working With ASP .Net Core Database SQL Server 
+#### Microsoft.EntityFrameworkCore.SqlServer
+#### Microsoft.EntityFrameworkCore.Tools
+#### Microsoft.EntityFrameworkCore.Design
+
+#### 5. Launch https Port for Running dotnet project from Visual Studio Code
+```bash 
+dotnet run --launch-profile https
+```
