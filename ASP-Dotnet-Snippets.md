@@ -29,3 +29,15 @@ dotnet ef database update
 ```bash 
 dotnet run --launch-profile https
 ```
+
+# Filter Search Box in Swagger UI Interface 
+### Inside the app.Environment.IsDevelopment() `if` check case replace the `app.SwaggerUI()` with the following code. 
+```bash 
+app.UseSwaggerUI(c =>
+    {
+    c.DocumentTitle = "My Large API Docs";
+    c.DisplayRequestDuration();
+    c.DefaultModelsExpandDepth(-1); // Optional: hide schemas
+    c.EnableFilter(); // ✅ Enables search filter box
+    });
+```
