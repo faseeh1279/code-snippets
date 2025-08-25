@@ -93,3 +93,6 @@ npx cap open android
 ```bash 
 ionic.io/ionicons
 ```
+
+
+# This file is updated
